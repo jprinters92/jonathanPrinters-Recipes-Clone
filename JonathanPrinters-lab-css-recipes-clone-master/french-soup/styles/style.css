@@ -1,0 +1,32 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.french-soup {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.soup p {
+  padding-left: 20px;
+}
+
+.directions {
+  padding-left: 20px;
+}
